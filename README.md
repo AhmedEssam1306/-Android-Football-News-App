@@ -7,6 +7,7 @@ Android App that shows Football Feeds , Matches , Scores and Standings some are 
 Future Work:
 
 1-Dynamic Feed for certain content.
+
 2-Live Updates for the matches and Scores
 
 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="finalp.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.access_network_state" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity2"
+            android:label="Sign Up"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Log In"></activity>
+        <activity
+            android:name=".MainActivity3"
+            android:label="Premier League Table"></activity>
+        <activity
+            android:name=".testTable"
+            android:label="La Liga Table"></activity>
+        <activity
+            android:name=".MainActivity6"
+            android:label="Seria A Table"></activity>
+        <activity
+            android:name=".MainActivity7"
+            android:label="Bundesliga Table"></activity>
+        <activity
+            android:name=".MainActivity8"
+            android:label="@string/title_activity_main_activity9"></activity>
+        <activity
+            android:name=".MainActivity10"
+            android:label="@string/title_activity_main_activity10"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="finalp.project.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity4"
+            android:label="@string/title_activity_activity_club_profile"></activity>
+        <activity
+            android:name=".activity_sqaud_table"
+            android:label="@string/title_activity_activity_sqaud_table"></activity>
+        <activity
+            android:name=".activity_team_table"
+            android:label="@string/title_activity_activity_team_table"></activity>
+        <activity
+            android:name=".homepage"
+            android:label="@string/title_activity_homepage"></activity>
+        <activity
+            android:name=".activity_club_profile"
+            android:label="@string/title_activity_test_class"></activity>
+        <activity
+            android:name=".testClass"
+            android:label="@string/title_activity_test_table"></activity>
+        <activity
+            android:name=".MainActivity9"
+            android:label="@string/title_activity_test_home"></activity>
+        <activity
+            android:name=".testHome"
+            android:label="@string/title_activity_test_home2"></activity>
+        <activity
+            android:name=".testHome2"
+            android:label="@string/title_activity_menu_test"></activity>
+        <activity
+            android:name=".NavFragments"
+            android:label="@string/title_activity_nav_fragments"></activity>
+    </application>
+
+</manifest>
